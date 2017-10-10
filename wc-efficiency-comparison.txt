@@ -1,0 +1,33 @@
+
+#/*
+#* This file is subject to the terms and conditions defined in
+#* file 'LICENSE.txt', which is part of this source code package.
+#*/
+#wc
+
+Testcase    RealTime    CPUTime
+empty.txt	0m0.004s	0m0.003s
+long.txt	0m0.002s	0m0.002s
+read.txt	0m0.002s	0m0.002s
+text.txt	0m0.002s	0m0.002s
+text1.txt	0m0.003s	0m0.003s
+text2.txt	0m0.004s	0m0.003s
+text3.txt	0m0.003s	0m0.003s
+
+
+#wc.py
+
+Testcase    RealTime    CPUTime
+empty.txt	0m0.028s	0m0.024s
+long.txt	0m0.024s	0m0.021s
+read.txt	0m0.030s	0m0.024s
+text.txt	0m0.036s	0m0.028s
+text1.txt	0m0.026s	0m0.022s
+text2.txt	0m0.030s	0m0.024s
+text3.txt	0m0.026s	0m0.023s
+
+
+
+	Average		Min	Max	Median	
+wc	0m0.002s	0m0.002s	0m0.003s	0m0.003s
+wc.py	0m0.023s	0m0.021s	0m0.028s	0m0.024s
